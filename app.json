@@ -15,13 +15,21 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.juandagl.restaurants"
     },
     "android": {
+      "package": "com.juandagl.restaurants",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCfUSsiVuSWwQREcpWjBY9D3vYMQ2u-hfQ"
+        }
+      },
+
       "permissions": [
         "CAMERA_ROLL",
         "READ_EXTERNAL_STORAGE",
